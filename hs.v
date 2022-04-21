@@ -1,6 +1,6 @@
 module Hs(x,y,b,d);
 input x,y;
 output b,d;
-assign s=x^y;
-assign c = ~x&y;
+assign d=x^y;
+assign b = ~x&y;
 endmodule
