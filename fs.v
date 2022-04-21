@@ -1,4 +1,4 @@
-module Ha(x,y,z,b,d);
+module fs(x,y,z,b,d);
 input x,y,z;
 output b,d;
 assign s=x^y^z;

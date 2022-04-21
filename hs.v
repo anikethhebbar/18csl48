@@ -1,4 +1,4 @@
-module Ha(x,y,b,d);
+module Hs(x,y,b,d);
 input x,y;
 output b,d;
 assign s=x^y;
