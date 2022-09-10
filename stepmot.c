@@ -4,7 +4,7 @@ unsigned int i=0,j=0,k=0;
 int main(void)
 {
     PINSEL0=0X00000000;
-    IO0DIR=OXOOOOF0000;
+    IO0DIR=0X0000F0000;
     while(1)
     {
         for(j=0;j<50;j++)
